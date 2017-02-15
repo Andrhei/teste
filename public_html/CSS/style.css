@@ -1,0 +1,25 @@
+/* 
+    Created on : 15/02/2017, 14:26:03
+    Author     : AndrheiHenrique
+*/
+.cubo{
+    background: darkviolet;
+    width: 250px;
+    height: 250px;
+}
+.cubo:hover{
+    animation-name: animacao;
+    animation-duration: 8s;
+}
+@keyframes animacao{
+    from{
+        background: darkviolet;
+        width: 250px;
+        height: 250px;
+    }
+    to{
+        background: yellowgreen;
+        width: 500px;
+        height: 500px;
+    }
+}
